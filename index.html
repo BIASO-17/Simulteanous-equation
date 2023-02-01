@@ -2,33 +2,26 @@
 <html>
 <head>
 <title></title>
+<link rel="stylesheet" href="index.css">
 </head>
 <body>
 <h1>
 Solving a simulteanous equation with 2 unknowns
 </h1>
-<script type="text/javascript">
-var a1;
-var b1;
-var c1;
-var a2;
-var b2;
-var c2;
-var x;
-var y;
-a1 = prompt(" "+"    a1=");
-b1 = prompt("b1=");
-c1 = prompt("c1=");
-a2 = prompt("a2=");
-b2 = prompt("b2=");
-c2 = prompt("c2=");
- 
- y = ((c2 * a1)-(a2 * c1))/((a1 * b2)-(a2 * b1));
- x = (1/a1)*(c1 - (b1*y));
- 
-prompt("x ="+" "+x);
-prompt("y ="+" "+y);
-alert( " x= "+x +" and "+" y= "+ y)
-</script>
+<div id="all">
+    <div id="table">
+        <div class="eqn">
+            <input type="text" class="input" placeholder="a1" id="a1"> x + <input type="text" class="input" placeholder="b1"> y = <input type="text"class="input" placeholder="c1"> --Eqn1
+        </div>
+        <div class="eqn">    
+            <input type="text" class="input" placeholder="a2"> x + <input type="text" class="input" placeholder="b2"> y = <input type="text" class="input" placeholder="c2"> --Eqn2
+        </div>
+        <div id="ans">
+            x = <input type="text" class="input"> y = <input type="text" class="input">
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
 </body>
 </html>

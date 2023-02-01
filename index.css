@@ -1,0 +1,43 @@
+ body{
+   font: 25px/1.5 arial;
+   background-color: #4C5C68;
+   box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+#table{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: auto;
+    border: black 3px solid;
+    border-radius: 19px;
+    padding: 50px;
+}
+.eqn{
+    padding: 10px;
+}
+.input{
+    width: 40px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: auto;
+}
+#all{
+    box-sizing: border-box;
+    border: #DCDCDD 5px solid;
+    margin-left: ;
+    width:500px ;
+    padding: 0.5%;
+    margin: auto;
+    border-radius: 19px;
+    
+}
+#ans{
+    margin: 10px;
+   
+    justify-content: space-between;
+}
