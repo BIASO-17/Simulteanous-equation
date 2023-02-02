@@ -1,4 +1,5 @@
 function ShowAnswer() {
+   
 var a1 = document.getElementById("a1").value;
 var b1 = document.getElementById("b1").value;
 var c1 = document.getElementById("c1").value;
@@ -9,7 +10,8 @@ y = ((c2 * a1)-(a2 * c1))/((a1 * b2)-(a2 * b1));
  x = (1/a1)*(c1 - (b1*y));
 //document.write(a1 + b1 + c1 + a2 + b2 + c2 )
 //document.write(y)
-document.getElementById("answer").innerHTML = "y = " + y + " " + " " + " x = " + x; 
+document.getElementById("answer").innerHTML = "y = " + y + " " + " " + " \nx = " + x; 
+document.getElementById("ans").style.border = " black solid 3px";
 }
 /*var a1;
 var b1;

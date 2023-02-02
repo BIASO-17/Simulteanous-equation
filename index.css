@@ -1,10 +1,26 @@
+ 
  body{
+   
+    margin: auto;
    font: 25px/1.5 arial;
-   background-color: #4C5C68;
+   width: 80%;
    box-sizing: border-box;
+   background-image: url("img.jpg");
+   background-size: cover;
+   background-position-x:left;
+   background-repeat: no-repeat;
+   
+   
 }
+
 h1{
+    margin-top: 0px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+    background-color: white;
     text-align: center;
+    font-size: 40px;
+    padding:   30px;
 }
 #table{
     box-sizing: border-box;
@@ -14,10 +30,11 @@ h1{
     width: auto;
     border: black 3px solid;
     border-radius: 19px;
-    padding: 50px;
+    padding: 0px 50px 50px 50px;
+    background-color: white;
 }
 .eqn{
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
 }
 .input{
     width: 40px;
@@ -28,7 +45,7 @@ h1{
 }
 #all{
     box-sizing: border-box;
-    border: #DCDCDD 5px solid;
+    border: white 5px solid;
     margin-left: ;
     width:500px ;
     padding: 0.5%;
@@ -38,17 +55,25 @@ h1{
 }
 #ans{
     box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
+    
     text-align: center;
-    width: 60%;
-    margin: 20px auto ; 
-    background-color: white;  
+    width: auto;
+    height: auto;
+    margin:  20px auto ; 
+   
+    border-radius: 10px;  
+    
 }
 #answer{
+    box-sizing: border-box;
     text-align: center;
-    margin:auto;
-    min-width: 100px;
+    margin:2px;
+    min-width: 150px;
+    color: whitesmoke;
+    border: whitesmoke solid 2px;
+    border-radius: 10px;
+    margin:auto 0px ;
+    background-color: black;
 }
 #button{
     border: black solid 3px;
@@ -56,6 +81,7 @@ h1{
     margin: auto;
     padding: 2px;
     border-radius: 10px;
+    
 }
 button{
     width: 100px;
@@ -65,8 +91,6 @@ button{
     border-radius: 10px;
     background-color: black;
     color: #DCDCDD;
-    font-size: 20px;
-}
-button:checked ~ #answer{
-    background-color: white;  
+    font-size: 30px;
+    font-weight: 30px;
 }
