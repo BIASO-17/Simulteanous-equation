@@ -1,6 +1,16 @@
-document.write ( 'a1');
-document.getElementById(a1).innerHTML = a1;
-document.getElementsByName(input)
+function ShowAnswer() {
+var a1 = document.getElementById("a1").value;
+var b1 = document.getElementById("b1").value;
+var c1 = document.getElementById("c1").value;
+var a2 = document.getElementById("a2").value;
+var b2 = document.getElementById("b2").value;
+var c2 = document.getElementById("c2").value;
+y = ((c2 * a1)-(a2 * c1))/((a1 * b2)-(a2 * b1));
+ x = (1/a1)*(c1 - (b1*y));
+//document.write(a1 + b1 + c1 + a2 + b2 + c2 )
+//document.write(y)
+document.getElementById("answer").innerHTML = "y = " + y + " " + " " + " x = " + x; 
+}
 /*var a1;
 var b1;
 var c1;
@@ -21,4 +31,4 @@ c2 = prompt("c2=");
  
 prompt("x ="+" "+x);
 prompt("y ="+" "+y);
-alert( " x= "+x +" and "+" y= "+ y)
+alert( " x= "+x +" and "+" y= "+ y)*/

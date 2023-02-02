@@ -37,7 +37,36 @@ h1{
     
 }
 #ans{
-    margin: 10px;
-   
-    justify-content: space-between;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 60%;
+    margin: 20px auto ; 
+    background-color: white;  
+}
+#answer{
+    text-align: center;
+    margin:auto;
+    min-width: 100px;
+}
+#button{
+    border: black solid 3px;
+    width: 105px;
+    margin: auto;
+    padding: 2px;
+    border-radius: 10px;
+}
+button{
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    background-color: black;
+    color: #DCDCDD;
+    font-size: 20px;
+}
+button:checked ~ #answer{
+    background-color: white;  
 }

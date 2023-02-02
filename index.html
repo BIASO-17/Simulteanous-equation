@@ -11,13 +11,16 @@ Solving a simulteanous equation with 2 unknowns
 <div id="all">
     <div id="table">
         <div class="eqn">
-            <input type="text" class="input" placeholder="a1" id="a1"> x + <input type="text" class="input" placeholder="b1"> y = <input type="text"class="input" placeholder="c1"> --Eqn1
+            <input type="text" class="input" placeholder="a1" id="a1"> x + <input type="text" class="input" placeholder="b1" id="b1"> y = <input type="text"class="input" placeholder="c1" id="c1"> --Eqn1
         </div>
         <div class="eqn">    
-            <input type="text" class="input" placeholder="a2"> x + <input type="text" class="input" placeholder="b2"> y = <input type="text" class="input" placeholder="c2"> --Eqn2
+            <input type="text" class="input" placeholder="a2" id="a2"> x + <input type="text" class="input" placeholder="b2" id="b2"> y = <input type="text" class="input" placeholder="c2" id="c2"> --Eqn2
+        </div>
+        <div id="button">
+            <button onclick="ShowAnswer()"> Solve</button>
         </div>
         <div id="ans">
-            x = <input type="text" class="input"> y = <input type="text" class="input">
+             <p id="answer"></p>
         </div>
     </div>
 </div>
